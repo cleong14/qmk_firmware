@@ -123,13 +123,19 @@
  *  These options are also useful to firmware size reduction.
  */
 
+/* choose between the following 2 options? */
+// #define PERMISSIVE_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS
 /* disable mod tap interrupt */
 #define IGNORE_MOD_TAP_INTERRUPT
+
+/* disable audio settings */
+#define NO_MUSIC_MODE
 
 /* disable action features */
 // #define NO_ACTION_LAYER
 // #define NO_ACTION_TAPPING
-#define NO_ACTION_ONESHOT
+// #define NO_ACTION_ONESHOT
 
 /* disable these deprecated features by default */
 // #define NO_ACTION_MACRO

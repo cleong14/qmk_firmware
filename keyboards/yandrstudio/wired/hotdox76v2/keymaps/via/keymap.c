@@ -2,8 +2,8 @@
 
 enum Layer_name {
     HOME,
-    CODE,
-    OFFICE,
+    SPECIAL,
+    MOUSE,
     OTHER
 };
 

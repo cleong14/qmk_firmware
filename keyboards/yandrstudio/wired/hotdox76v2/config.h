@@ -123,11 +123,14 @@
  *  These options are also useful to firmware size reduction.
  */
 
+/* disable mod tap interrupt */
+#define IGNORE_MOD_TAP_INTERRUPT
+
 /* disable action features */
 // #define NO_ACTION_LAYER
 // #define NO_ACTION_TAPPING
 #define NO_ACTION_ONESHOT
 
 /* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
+// #define NO_ACTION_MACRO
+// #define NO_ACTION_FUNCTION

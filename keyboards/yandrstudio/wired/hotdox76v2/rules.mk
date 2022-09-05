@@ -22,7 +22,7 @@ SPACE_CADET_ENABLE = no
 OLED_ENABLE = yes    # Enable Support for SSD1306 or SH1106 OLED Displays; Communicating over I2C
 OLED_DRIVER = SSD1306
 
-LTO_ENABLE = no
+LTO_ENABLE = yes
 
 # NO_USB_STARTUP_CHECK = yes
 

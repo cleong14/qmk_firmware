@@ -123,10 +123,8 @@
  *  These options are also useful to firmware size reduction.
  */
 
-/* choose between the following 2 options? */
-// #define PERMISSIVE_HOLD
-#define HOLD_ON_OTHER_KEY_PRESS
-/* disable mod tap interrupt */
+/* adds 'rolling combos' */
+/* prevents hold-action from triggering on quick keypresses */
 #define IGNORE_MOD_TAP_INTERRUPT
 
 /* disable audio settings */
